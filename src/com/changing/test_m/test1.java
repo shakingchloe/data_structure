@@ -18,6 +18,7 @@ public class test1 {
         System.out.println("hot-fix3333");
         System.out.println("master3333");
         System.out.println("push github");
+        System.out.println("ssh push github");
 
 //        Emp emp1 = new Emp(1,"shaking");
 //        Emp emp2 = new Emp(2,"changing");
