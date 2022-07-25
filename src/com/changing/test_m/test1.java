@@ -15,6 +15,7 @@ public class test1 {
         System.out.println(i);
         System.out.println("11111");
         System.out.println("22222");
+        System.out.println("master3333");
 //        Emp emp1 = new Emp(1,"shaking");
 //        Emp emp2 = new Emp(2,"changing");
 //        Emp temp = emp1.next;
