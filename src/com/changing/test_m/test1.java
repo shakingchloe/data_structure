@@ -20,6 +20,7 @@ public class test1 {
         System.out.println("push github");
         System.out.println("ssh push github");
         System.out.println("waiting idea pull");
+        System.out.println("gitee test");
 
 //        Emp emp1 = new Emp(1,"shaking");
 //        Emp emp2 = new Emp(2,"changing");
