@@ -11,24 +11,29 @@ import java.util.Date;
 public class MergeSortTest {
     public static void main(String[] args) {
 
-        //int[] arr = new int[]{8,4,5,7,1,3,6,2};
-        int[] arr1 = new int[8000000];
-        //int radom = (int) (Math.random() * (82 + 1 - 14)) + 14;
-        for(int i = 0;i < arr1.length;i++){
-            arr1[i] = (int) (Math.random() * (82 + 1 - 14)) + 14;
-        }
+//        //int[] arr = new int[]{8,4,5,7,1,3,6,2};
+//        int[] arr1 = new int[8000000];
+//        //int radom = (int) (Math.random() * (82 + 1 - 14)) + 14;
+//        for(int i = 0;i < arr1.length;i++){
+//            arr1[i] = (int) (Math.random() * (82 + 1 - 14)) + 14;
+//        }
+//
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        String date1 = sdf.format(new Date());
+//        System.out.println(date1);
+//        System.out.println("a");
+//        int[] sort = MergeSort.sort(arr1);
+//        //System.out.println(Arrays.toString(sort));
+//        String date2 = sdf.format(new Date());
+//        System.out.println(date2);
+//
+////        int[] sort = MergeSort.sort(arr);
+////        System.out.println(Arrays.toString(sort));
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String date1 = sdf.format(new Date());
-        System.out.println(date1);
-        System.out.println("a");
-        int[] sort = MergeSort.sort(arr1);
-        //System.out.println(Arrays.toString(sort));
-        String date2 = sdf.format(new Date());
-        System.out.println(date2);
-
-//        int[] sort = MergeSort.sort(arr);
-//        System.out.println(Arrays.toString(sort));
+        int[] arr = {2,5,3,1,55,3};
+//        int[] sort = insertionSort(arr);
+        int[] sort = MergeSort.sort(arr);
+        System.out.println(Arrays.toString(sort));
     }
 
 }

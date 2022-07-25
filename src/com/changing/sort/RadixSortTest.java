@@ -10,7 +10,6 @@ public class RadixSortTest {
     public static void main(String[] args) {
         int[] arr = new int[]{-9,-8,-16,-1116,-2116,-236762,9,98,978,2,348,3};
         //System.out.println(RadixSort.test(arr));
-        System.out.println("git");
         int[] sort = RadixSort.sort(arr);
         System.out.println(Arrays.toString(sort));
     }
