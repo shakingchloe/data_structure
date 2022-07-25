@@ -13,6 +13,7 @@ public class test1 {
 
         int i = ((-19 % 10) / 1);
         System.out.println(i);
+        System.out.println("11111");
 //        Emp emp1 = new Emp(1,"shaking");
 //        Emp emp2 = new Emp(2,"changing");
 //        Emp temp = emp1.next;
